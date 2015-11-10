@@ -13,6 +13,15 @@
 
 let $PYTHONHOME='/System/Library/Frameworks/Python.framework/Versions/Current'
 
+" display tabs by default with custom marker
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
+"never use tabs and set default tab to 4 spaces
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set shiftround
+
 " line numbers visible by default
 
 set number
